@@ -8,28 +8,7 @@ export const Header = () => {
       <div className="flex justify-between items-center p-4">
         <div className="flex flex-row items-center gap-2 shrink-0 ">
           <span className="jsx-e3e12cc6f9ad5a71 flex flex-row items-center gap-2 home-links">
-            <Link
-              className="text-zinc-800 dark:text-zinc-100 -translate-y-[.5px]"
-              rel="noopener"
-              target="_blank"
-              href="https://vercel.com/"
-            >
-              <svg
-                data-testid="geist-icon"
-                height={18}
-                strokeLinejoin="round"
-                viewBox="0 0 16 16"
-                width={18}
-                style={{ color: "currentcolor" }}
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M8 1L16 15H0L8 1Z"
-                  fill="currentColor"
-                />
-              </svg>
-            </Link>
+            
             <div className="jsx-e3e12cc6f9ad5a71 w-4 text-lg text-center text-zinc-300 dark:text-zinc-600">
               <svg
                 data-testid="geist-icon"
